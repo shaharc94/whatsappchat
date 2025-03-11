@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ECE5DD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 360px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+
+.chat-header {
+    background: #075E54;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.chat-box {
+    height: 500px;
+    overflow-y: scroll;
+    padding: 10px;
+    background: #ECE5DD;
+}
+
+.message {
+    max-width: 75%;
+    margin: 5px;
+    padding: 8px 12px;
+    border-radius: 10px;
+    display: inline-block;
+    clear: both;
+}
+
+.received {
+    background: white;
+    float: left;
+}
+
+.sent {
+    background: #DCF8C6;
+    float: right;
+}
+
+.timestamp {
+    font-size: 10px;
+    color: gray;
+    margin-top: 5px;
+    text-align: right;
+}
+
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #075E54;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
